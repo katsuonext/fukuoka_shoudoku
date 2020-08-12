@@ -43,3 +43,7 @@ h1 {
   height: 300px;
   width: 100%;
 }
+.cv__ttl {
+  background-color: aqua;
+  padding: 40px 0;
+}

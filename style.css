@@ -82,3 +82,7 @@ img {
   box-sizing: border-box;
   padding: 15px 0 0 15px;
 }
+
+.sub-menu {
+  display: flex;
+}

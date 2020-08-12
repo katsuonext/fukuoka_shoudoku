@@ -11,3 +11,10 @@ h1 {
   color: brown;
   background-color: cyan;
 }
+
+#gnav {
+  padding: 10px;
+  font-family: "Open sans", sans-serif;
+  z-index: 100;
+  display: flex;
+}

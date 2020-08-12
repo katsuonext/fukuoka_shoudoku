@@ -1,3 +1,0 @@
-# fukuoka_shoudoku
-
-aaa

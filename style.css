@@ -100,3 +100,29 @@ img {
 .about {
   padding: 0 30px;
 }
+
+.main__box1 {
+  background-image: url(3414530_m.jpeg);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  /* background-color: dodgerblue; */
+}
+
+.main__box2 {
+  background-image: url(mainimage_stericare.png);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  /* background-color: dodgerblue; */
+}

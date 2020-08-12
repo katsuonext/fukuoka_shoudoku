@@ -97,16 +97,14 @@ img {
   display: block;
 }
 
-
-
 @media only screen and (min-width: 568px) {
   header {
     zoom: 1;
     width: 100%;
   }
 
-header {}
-  header:before, header:after {
+  header:before,
+  header:after {
     display: block;
     height: 0;
     visibility: hidden;
@@ -149,7 +147,8 @@ header {}
   header nav ul > li a:visited {
     color: #555;
   }
-  header nav ul > li.current > a, header nav ul > li:hover > a {
+  header nav ul > li.current > a,
+  header nav ul > li:hover > a {
     color: #2d5f98;
     font-weight: bold;
     text-decoration: none;
@@ -240,7 +239,8 @@ header {}
     padding: 8px 20px;
     background-color: #ffffff;
   }
-  header nav ul > li ul.sub-menu li.current a, header nav ul > li ul.sub-menu li:hover a {
+  header nav ul > li ul.sub-menu li.current a,
+  header nav ul > li ul.sub-menu li:hover a {
     color: #ffffff;
     background-color: #2d5f98;
   }
@@ -301,7 +301,7 @@ header {}
     background: #2d5f98 url("../images/icon_mail.png") no-repeat 50% 35%;
     background-size: 24px auto;
     display: inline-block;
-    content: '';
+    content: "";
     width: 31px;
     height: 30px;
     margin-right: 15px;
@@ -314,7 +314,7 @@ header {}
     background: url("../images/icon_sitemap.png") no-repeat 50% 35%;
     background-size: 28px 25px;
     display: inline-block;
-    content: '';
+    content: "";
     width: 31px;
     height: 30px;
     margin-right: 15px;
@@ -366,7 +366,8 @@ header {}
     left: 0;
     top: 11px;
   }
-  .menu-button i:before, .menu-button i:after {
+  .menu-button i:before,
+  .menu-button i:after {
     content: "";
     display: block;
     width: 29px;
@@ -382,7 +383,4 @@ header {}
     transform: translateY(10px);
     -webkit-transform: translateY(10px);
   }
-  .menu-button i:after {
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-  }
+}

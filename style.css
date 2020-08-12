@@ -90,3 +90,9 @@ img {
 .menu-button {
   width: 940px;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}

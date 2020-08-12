@@ -86,6 +86,7 @@ img {
 .main-menu {
   padding: 0;
   display: flex;
+  padding-left: 150px;
 }
 .menu-button {
   width: 940px;
@@ -95,4 +96,7 @@ img {
   content: "";
   clear: both;
   display: block;
+}
+.about {
+  padding: 0 30px;
 }

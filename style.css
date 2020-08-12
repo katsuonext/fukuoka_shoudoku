@@ -36,7 +36,7 @@ h1 {
   position: relative;
   width: 860px;
   margin: 0 auto;
-  color: #f3f3f3;
+  color: #ffffff;
   text-align: center;
   font-size: large;
 }
@@ -45,6 +45,6 @@ h1 {
   width: 100%;
 }
 .cv__ttl {
-  background-color: aqua;
+  background-color: darkblue;
   padding: 40px 0;
 }

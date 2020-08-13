@@ -40,7 +40,7 @@ h1 {
 }
 .ttl__text {
   position: relative;
-  width: 860px;
+  width: 900px;
   margin: 0 auto;
   color: #ffffff;
   text-align: center;
@@ -49,6 +49,10 @@ h1 {
 .cv__textImg {
   height: 300px;
   width: 100%;
+}
+
+#image1 {
+  margin-left: 50px;
 }
 .cv__ttl {
   background-color: #3ccace;
@@ -94,9 +98,6 @@ img {
   display: flex;
   padding-left: 150px;
 }
-.menu-button {
-  width: 940px;
-}
 
 .clearfix::after {
   content: "";
@@ -135,7 +136,7 @@ img {
   width: 100%;
 }
 .main__box3 {
-  background-image: url(71467.png);
+  background-image: url(71467png);
   height: 550px;
   width: 100%;
   background-size: cover;

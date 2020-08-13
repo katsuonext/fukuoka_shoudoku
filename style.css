@@ -134,6 +134,20 @@ img {
   padding: 60px 20px;
   width: 100%;
 }
+.main__box3 {
+  background-image: url(71467.png);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  /* background-color: dodgerblue; */
+  padding: 60px 20px;
+  width: 100%;
+}
 
 .main__box3__box {
   display: flex;

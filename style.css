@@ -9,7 +9,12 @@ body {
     "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
     "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
-
+.about {
+  color: gray;
+}
+.a {
+  color: #f3f3f3;
+}
 h1 {
   color: blueviolet;
 }
@@ -93,8 +98,11 @@ img {
   float: left;
   width: 150px;
   box-sizing: border-box;
+  height: 70px;
 }
-
+.ssclogo {
+  height: 70px;
+}
 .main-menu {
   padding: 0;
   display: flex;

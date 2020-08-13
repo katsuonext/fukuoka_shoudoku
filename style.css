@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
 body {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
@@ -125,4 +131,23 @@ img {
   display: flex;
   align-items: center;
   /* background-color: dodgerblue; */
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.main__box3__box {
+  display: flex;
+}
+
+h2 {
+  border-top: 2px solid;
+  /* content: "";
+  flex-grow: 1; */
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  color: #2d5f98;
+  font-size: 30px;
+  font-size: 1.875rem;
+  display: flex;
+  align-items: center;
+  /* margin: 30px 0;
 }

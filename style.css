@@ -54,6 +54,9 @@ h1 {
 #image1 {
   margin-left: 50px;
 }
+.rightspace {
+  margin-left: 20px;
+}
 .cv__ttl {
   background-color: #3ccace;
   padding: 40px 0;
@@ -211,4 +214,16 @@ img {
 .stericare table.comparisonTable td {
   vertical-align: middle;
   padding: 10px 15px;
+}
+
+.main__box2__box {
+  text-align: center;
+  display: flex;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main__box2__box__box1__image1 {
+  position: relative;
+  margin-bottom: 20px;
 }

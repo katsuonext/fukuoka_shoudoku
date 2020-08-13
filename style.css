@@ -176,3 +176,14 @@ img {
   background-color: #3ccace;
   color: #fff;
 }
+.stericare table.comparisonTable {
+  width: 950px;
+  border-collapse: collapse;
+  border-bottom: 1px solid #d4dee7;
+  margin: 0 auto 10px;
+}
+.stericare table.comparisonTable th,
+.stericare table.comparisonTable td {
+  vertical-align: middle;
+  padding: 10px 15px;
+}

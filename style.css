@@ -139,15 +139,40 @@ img {
   display: flex;
 }
 
-h2 {
-  border-top: 2px solid;
-  /* content: "";
-  flex-grow: 1; */
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+.main_box3_title {
+  text-align: center;
+  border-bottom: 2px solid;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+    "Yu Mincho", "MS PMincho", serif;
   color: #2d5f98;
-  font-size: 30px;
   font-size: 1.875rem;
   display: flex;
   align-items: center;
-  /* margin: 30px 0;
+  margin: 30px 0;
+  line-height: 3;
+}
+
+.main__box3__box1__image1 {
+  position: relative;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.main__box3__box1 {
+  width: 30%;
+  margin: 16px 5% 0 0;
+  text-align: left;
+  display: flex;
+}
+.main__box3__box1__image1 span {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4%;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 5px 0 0;
+  padding: 10px 20px;
+  background-color: #3ccace;
+  color: #fff;
 }

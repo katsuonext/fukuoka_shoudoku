@@ -16,6 +16,15 @@ body {
 .a {
   color: #f3f3f3;
 }
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
 h1 {
   color: blueviolet;
 }
@@ -289,4 +298,9 @@ img {
   padding: 10px 20px;
   background-color: #3ccace;
   color: #fff;
+}
+
+.main-box3 {
+  padding: 60px 20px;
+  width: 100%;
 }

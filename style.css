@@ -5,13 +5,14 @@
 }
 
 body {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+  /* font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
-    "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+    "Yu Mincho", "MS PMincho", serif;
+  color: #2d5f98;
 }
-.about {
-  color: gray;
-}
+
 .a {
   color: #f3f3f3;
 }
@@ -66,6 +67,13 @@ h1 {
   background-color: #3ccace;
   padding: 40px 0;
 }
+.menu-button {
+  height: 70px;
+  background-color: crimson;
+}
+.main-menu {
+  height: 70px;
+}
 
 .price__inner {
   position: relative;
@@ -116,6 +124,7 @@ img {
 }
 .about {
   padding: 0 30px;
+  font-size: 20px;
 }
 
 .main__box1 {
@@ -128,25 +137,14 @@ img {
   padding: 0 60px;
   display: flex;
   align-items: center;
-  /* background-color: dodgerblue; */
+  background-color: dodgerblue;
+}
+.main__box1__contents {
+  font-size: 40px;
 }
 
 .main__box2 {
   background-image: url(mainimage_stericare.png);
-  height: 550px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  padding: 0 60px;
-  display: flex;
-  align-items: center;
-  /* background-color: dodgerblue; */
-  padding: 60px 20px;
-  width: 100%;
-}
-.main__box3 {
-  background-image: url(71467png);
   height: 550px;
   width: 100%;
   background-size: cover;
@@ -201,30 +199,6 @@ img {
   padding-left: 60px;
 }
 
-.main__box3__box1__image1 {
-  position: relative;
-  margin-bottom: 20px;
-  margin: 0 auto;
-}
-.main__box3__box1 {
-  width: 30%;
-  margin: 16px 5% 0 0;
-  text-align: left;
-  display: flex;
-}
-.main__box3__box1__image1 span {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 4%;
-  font-size: 30px;
-  text-align: center;
-  margin: 0 5px 0 0;
-  padding: 10px 20px;
-  background-color: #3ccace;
-  color: #fff;
-}
 .stericare table.comparisonTable {
   width: 950px;
   border-collapse: collapse;
@@ -254,4 +228,65 @@ img {
 
 .main__box3__box2 h2 {
   padding-left: 60px;
+  font-size: 40px;
+}
+
+.main__box3__box1 {
+  width: 30%;
+  margin: 16px 5% 0 0;
+  text-align: left;
+  display: flex;
+}
+
+.main__box3__box__box1__image1 span {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4%;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 5px 0 0;
+  padding: 10px 20px;
+  background-color: #3ccace;
+  color: #fff;
+}
+.main__box3_box__box1__image1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main__box3__box {
+  text-align: center;
+  display: flex;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main__box3__box__box1 {
+  width: 30%;
+  margin: 16px 5% 0 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__box3__box1__image1 {
+  position: relative;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.main__box3__box1__image1 span {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4%;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 5px 0 0;
+  padding: 10px 20px;
+  background-color: #3ccace;
+  color: #fff;
 }
